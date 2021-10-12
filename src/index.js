@@ -1,4 +1,9 @@
-import react from "react";
 import reactDOM from "react-dom";
 
-reactDOM.render(<></>,document.querySelector('#root'));
+import App from './App';
+
+import 'bootstrap/dist/css/bootstrap.css';
+
+reactDOM.render(<>
+<App/>
+</>,document.querySelector('#root'));

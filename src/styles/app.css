@@ -1,0 +1,27 @@
+.navigation-container {
+  display: flex;
+  align-items: center;
+  background-color: rgb(250, 246, 215);
+  height: 80px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.users-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: rgb(230, 230, 240);
+  padding-bottom: 20px;
+}
+
+.each-user {
+  width: 360px;
+  margin-right: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: rgb(16, 32, 32);
+}
